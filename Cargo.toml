@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "ehbasic-cli",     # CLI (Command Line Interface)  
+    "ehbasic",         # Biblioteca  
+    "chip8-vm",        # Emulador Chip8
+]

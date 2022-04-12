@@ -1,0 +1,11 @@
+[package]
+name = "ehbasic-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "3.1.8"
+ehbasic = { path ="../ehbasic" }
+tokio = { version = "1.17.0", features = ["full"] }
+tracing = "0.1.33"
+tracing-subscriber = { version = "0.3.11", features = ["env-filter"] }
